@@ -1,0 +1,73 @@
+/*Sidebar CSS Design*/
+
+@media (max-width:1200px){
+    .sidebar{
+        position:fixed;
+        bottom:0px;
+        top:55px;
+        left:0px;
+        width:72px;
+        background-color: white;
+        z-index: 1100;
+    }
+
+    .sidebar-elem{
+        display:flex;
+        background-color: white;
+        height:72px;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        cursor:pointer;
+    }
+    .sidebar-elem:hover{
+        background-color: rgb(233, 233, 233);
+    }
+    .home-img,.explore-img,.subscriptions-img,.orignals-img,.yt-music-img,.library-img{
+        height:24px;
+    }
+    .sidebar-elem div{
+        font-size: 10px;
+        margin-top:4px;
+    }
+}
+
+@media (min-width:1200.1px){
+    body{
+    padding: 80px 24px 0px 280px;
+    font-family: Roboto, Arial;
+    background-color: rgb(249, 249, 249);
+    }
+
+    .sidebar{
+        position:fixed;
+        bottom:0px;
+        top:55px;
+        left:0px;
+        width:250px;
+        background-color: white;
+        z-index: 1100;
+    }
+
+    .sidebar-elem{
+        display:flex;
+        background-color: white;
+        height:72px;
+        margin-left:16px;
+        align-items: center;
+        justify-content: start;
+        flex-direction:row;
+        cursor:pointer;
+    }
+    .sidebar-elem:hover{
+        background-color: rgb(233, 233, 233);
+    }
+    .home-img,.explore-img,.subscriptions-img,.orignals-img,.yt-music-img,.library-img{
+        height:24px;
+        margin-right: 20px;
+    }
+    .sidebar-elem div{
+        font-size: 16px;
+        margin-top:4px;
+    } 
+}
